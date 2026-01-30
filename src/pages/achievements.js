@@ -225,6 +225,13 @@ const Achievements = () => {
       year: "2023",
       imagePath: "/images/certificates/Oracle Apex.png",
       certificatePath: "https://drive.google.com/file/d/1h6pQZZ4xnd4Z5NjuUwlw7T6sQTg4V2se/view?usp=drive_link" // Replace with your Drive link
+    },
+    {
+      title: "React Developer",
+      organization: "Hudsmer Business Solutions",
+      year: "2025",
+      imagePath: "/images/certificates/HBS.png",
+      certificatePath: "https://drive.google.com/file/d/181hJcyp6pKtH1FVjsRIMhtVpApaIn6lP/view?usp=sharing" // Replace with your Drive link
     }
   ];
 
