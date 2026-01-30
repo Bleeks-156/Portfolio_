@@ -230,7 +230,7 @@ const Achievements = () => {
       title: "React Developer",
       organization: "Hudsmer Business Solutions",
       year: "2025",
-      imagePath: "/images/certificates/HBS.png",
+      imagePath: "/images/certificates/HBS.jpg",
       certificatePath: "https://drive.google.com/file/d/181hJcyp6pKtH1FVjsRIMhtVpApaIn6lP/view?usp=sharing" // Replace with your Drive link
     }
   ];
