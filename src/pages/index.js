@@ -36,7 +36,7 @@ export default function Home() {
           <p>
             ⚠️ This site is best viewed in <strong>Desktop Mode</strong>.
             <br />
-            Please tap the <strong>three-dot menu</strong> in your browser and select <strong>"Request Desktop Site"</strong>.
+            Please tap the <strong>three-dot menu</strong> in your browser and select <strong>&quot;Request Desktop Site&quot;</strong>.
           </p>
         </main>
       ) : (
