@@ -15,6 +15,7 @@ import mobileAppProject from "../../public/images/projects/devdreaming.jpg";
 import dataAnalyticsProject from "../../public/images/projects/Star-Taxi.png";
 import HBS from "../../public/images/projects/HBS.png";
 import HosTrust from "../../public/images/projects/HosTrust.png";
+import CICD from "../../public/images/projects/CI-CD.jpg";
 
 // FeaturedProject Component with animation
 const FeaturedProject = ({ title, summary, img, link, github, tech }) => {
@@ -211,7 +212,7 @@ const Projects = () => {
                 tech="React.js/ Node.js / Express.js / MongoDB / Stripe / GooglePay / Socket.IO / Tailwind CSS"
                 img={PlayHaven}
                 link="https://playhaven-infa.onrender.com/login"
-                github="https://github.com/AjayPeter582/Playhaven"
+                github="https://github.com/Bleeks-156/PlayHaven--Video-Streaming-Platform"
               />
             </div>
             <div className='md:col-span-12'>
@@ -232,6 +233,16 @@ const Projects = () => {
                 link=""
                 github="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
                 tech="Vite+MERN / Node.js / IPFS/Pinata / Stripe / JWT / Brevo"
+              />
+            </div>
+            <div className='md:col-span-12'>
+              <FeaturedProject 
+                title="Version Control CI/CD Pipeline"
+                summary="Built end-to-end automation from GitHub repository to live deployment, orchestrating the workflow, handling build processes, and website hosting."
+                img={CICD}
+                link=""
+                github="https://github.com/Bleeks-156/portfolio-cicd-pipeline"
+                tech="AWS S3 / CodePipeline / CodeBuild"
               />
             </div>
           </div>
