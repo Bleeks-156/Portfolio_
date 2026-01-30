@@ -206,11 +206,11 @@ const Projects = () => {
             </div>
             <div className='md:col-span-6'>
               <Project 
-                title="PlayHaven- Video Streaming Platform (Ongoing)"
+                title="PlayHaven- Video Streaming Platform"
                 tech="React.js/ Node.js / Express.js / MongoDB / Stripe / GooglePay / Socket.IO / Tailwind CSS"
                 img={PlayHaven}
-                link=""
-                github=""
+                link="https://playhaven-infa.onrender.com/login"
+                github="https://github.com/AjayPeter582/Playhaven"
               />
             </div>
             <div className='md:col-span-12'>
