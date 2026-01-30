@@ -230,8 +230,8 @@ const Projects = () => {
                 title="HosTrust- Decentralized Tenant Hostel Management System"
                 summary="A platform for secure hostel and rental property management featuring secure bookings and approval of properties, immutable agreements and payment updates."
                 img={HosTrust}
-                link=""
-                github="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
+                link="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
+                github=""
                 tech="Vite+MERN / Node.js / IPFS/Pinata / Stripe / JWT / Brevo"
               />
             </div>
@@ -240,8 +240,8 @@ const Projects = () => {
                 title="Version Control CI/CD Pipeline"
                 summary="Built end-to-end automation from GitHub repository to live deployment, orchestrating the workflow, handling build processes, and website hosting."
                 img={CICD}
-                link=""
-                github="https://github.com/Bleeks-156/portfolio-cicd-pipeline"
+                link="https://github.com/Bleeks-156/portfolio-cicd-pipeline"
+                github=""
                 tech="AWS S3 / CodePipeline / CodeBuild"
               />
             </div>
