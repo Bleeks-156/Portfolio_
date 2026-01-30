@@ -69,7 +69,7 @@ export default function Home() {
 
                 <div className="flex items-center self-center lg:self-start mt-4">
                   <Link
-                    href="https://drive.google.com/file/d/10RH90NmvfQ6pnd9XbBsiZnO8X-iF5x1c/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1eKQ7GXiNqJPGIs85cjoOWV7jmieqXsdI/view?usp=sharing"
                     target="_blank"
                     className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark transition-colors duration-300"
                     download={true}
