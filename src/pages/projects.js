@@ -223,6 +223,16 @@ const Projects = () => {
                 tech="Unity / C# "
               />
             </div>
+            <div className='md:col-span-12'>
+              <FeaturedProject 
+                title="HosTrust- Decentralized Tenant Hostel Management System"
+                summary="A platform for secure hostel and rental property management featuring secure bookings and approval of properties, immutable agreements and payment updates."
+                img={dataAnalyticsProject}
+                link=""
+                github="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
+                tech="Vite+MERN / Node.js / IPFS/Pinata / Stripe / JWT / Brevo"
+              />
+            </div>
           </div>
         </Layout>
       </main>
