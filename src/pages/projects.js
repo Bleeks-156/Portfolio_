@@ -14,6 +14,7 @@ import PlayHaven from "../../public/images/projects/PlayHaven.png"
 import mobileAppProject from "../../public/images/projects/devdreaming.jpg";
 import dataAnalyticsProject from "../../public/images/projects/Star-Taxi.png";
 import HBS from "../../public/images/projects/HBS.png";
+import HosTrust from "../../public/images/projects/HosTrust.png";
 
 // FeaturedProject Component with animation
 const FeaturedProject = ({ title, summary, img, link, github, tech }) => {
@@ -227,7 +228,7 @@ const Projects = () => {
               <FeaturedProject 
                 title="HosTrust- Decentralized Tenant Hostel Management System"
                 summary="A platform for secure hostel and rental property management featuring secure bookings and approval of properties, immutable agreements and payment updates."
-                img={dataAnalyticsProject}
+                img={HosTrust}
                 link=""
                 github="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
                 tech="Vite+MERN / Node.js / IPFS/Pinata / Stripe / JWT / Brevo"
