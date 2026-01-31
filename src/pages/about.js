@@ -75,15 +75,13 @@ const Skill = ({ name, imgSrc }) => {
 
 const About = () => {
   const skills = [
-    { name: "React", img: reactImg },
-    { name: "Tailwind", img: tailwindImg },
+    { name: "Vite+React", img: reactImg },
     { name: "JavaScript", img: javascriptImg },
     { name: "Node.js", img: nodeImg },
     { name: "HTML", img: htmlImg },
     { name: "CSS", img: cssImg },
     { name: "Java", img: javaImg },
     { name: "C", img: cImg },
-    { name: "C++", img: cppImg },
     { name: "SQL", img: sqlImg }
   ];
 
