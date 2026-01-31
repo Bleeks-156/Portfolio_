@@ -53,7 +53,7 @@ const FeaturedProject = ({ title, summary, img, link, github, tech }) => {
         </Link>
         <p className='my-2 font-medium text-sm sm:text-base text-dark'>{summary}</p>
         <div className='mt-2 flex items-center'>
-          <Link href="https://github.com/Bleeks-156/Star-Taxi" target="_blank" className='rounded-lg bg-dark text-light px-4 py-2 text-sm sm:text-base font-semibold hover:bg-light hover:text-dark border-2 border-solid border-dark transition-colors duration-300'>
+          <Link href={github} target="_blank" className='rounded-lg bg-dark text-light px-4 py-2 text-sm sm:text-base font-semibold hover:bg-light hover:text-dark border-2 border-solid border-dark transition-colors duration-300'>
             Visit GitHub
           </Link>
           {/* <Link href={link} target="_blank" className='ml-4 rounded-lg bg-light text-dark px-4 py-2 text-sm sm:text-base font-semibold hover:bg-dark hover:text-light border-2 border-solid border-dark transition-colors duration-300'>
@@ -221,7 +221,7 @@ const Projects = () => {
                 summary="A futuristic space taxi survival game built with Unity. Players control a taxi, navigating through a road in space, dodging obstacles and achieving high scores."
                 img={dataAnalyticsProject}
                 link="https://data-analytics-tool.com"
-                github="https://github.com/harishankar/data-analytics"
+                github="https://github.com/Bleeks-156/Star-Taxi"
                 tech="Unity / C# "
               />
             </div>
@@ -231,7 +231,7 @@ const Projects = () => {
                 summary="A platform for secure hostel and rental property management featuring secure bookings and approval of properties, immutable agreements and payment updates."
                 img={HosTrust}
                 link="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
-                github=""
+                github="https://github.com/Bleeks-156/HosTrust---Dencentralized-Tenant-Hostel-Management-System"
                 tech="Vite+MERN / Node.js / IPFS/Pinata / Stripe / JWT / Brevo"
               />
             </div>
@@ -241,7 +241,7 @@ const Projects = () => {
                 summary="Built end-to-end automation from GitHub repository to live deployment, orchestrating the workflow, handling build processes, and website hosting."
                 img={CICD}
                 link="https://github.com/Bleeks-156/portfolio-cicd-pipeline"
-                github=""
+                github="https://github.com/Bleeks-156/portfolio-cicd-pipeline"
                 tech="AWS S3 / CodePipeline / CodeBuild"
               />
             </div>
